@@ -30,7 +30,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf8
-  database: pin_board_production
+  database: d9ne2nr7qocase
   pool: 5
-  username: 
-  password:
+  username: cqqvoxodywdurc
+  password: RtiziF2YL2QX_HF0OUcHoMyYAA
