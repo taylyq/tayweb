@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150714231000) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "pins", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
