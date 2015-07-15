@@ -11,6 +11,8 @@ default: &default
   pool: 5
   username: tay
   password:	taytaytay
+  host: localhost
+  port: 5432
 
 development:
   adapter: postgresql
@@ -19,6 +21,8 @@ development:
   pool: 5
   username: tay
   password:	taytaytay
+  host: localhost
+  port: 5432
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -29,9 +33,10 @@ test:
 
 production:
   adapter: postgresql
-  port: 5432
   encoding: utf8
   database: d9ne2nr7qocase
   pool: 5
+  host: ec2-54-83-36-176.compute-1.amazonaws.com
   username: cqqvoxodywdurc
   password: RtiziF2YL2QX_HF0OUcHoMyYAA
+   port: 5432
